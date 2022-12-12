@@ -1,0 +1,137 @@
+.encabezado {
+    background-color: #9fc;
+    padding: 20px;
+}
+
+.encabezado h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 44px;
+    line-height: 62px;
+    text-align: center;
+}
+
+*,
+*::before,
+*::after {
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif
+}
+
+.navegacion {
+    background-color: #25cf16;
+    height: 68px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    list-style: none;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.navegacion {
+    width: 100%;
+    height: 68px;
+    margin: auto;
+    padding: 0%;
+}
+
+.navegacion ul {
+    list-style: none;
+    text-align: right;
+    line-height: 68px;
+    font-size: 22px;
+}
+
+.menu>li {
+    position: relative;
+    display: inline-block;
+    padding: 0 5px;
+}
+
+.menu>li>a {
+    display: block;
+    padding: 13px 18px;
+    color: #B3FFAE;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+
+}
+
+.menu li a:hover {
+    color: #F8FFDB;
+    transition: all .3s;
+}
+
+/*submenu*/
+
+.submenu {
+    position: absolute;
+    background-color: #FF7D7D;
+    width: 110%;
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity 1.5s;
+}
+
+.submenu li a {
+    display: block;
+    padding: 15px;
+    color: #B3FFAE;
+    font-family: 'Times New Roman', Times, serif;
+    text-decoration: none;
+    line-height: 22px;
+    font-size: 18px;
+
+}
+
+.menu li:hover .submenu {
+    visibility: visible;
+    opacity: 1;
+}
+
+.logo li a {
+    color: #F8FFDB;
+    font-size: 55px;
+    line-height: 55px;
+    text-align: left;
+    display: block;
+    text-decoration: none;
+
+    position: absolute;
+    padding: 0 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+
+}
+
+
+
+.principal {
+    background-color: #7DE5ED;
+    padding: 60px;
+    grid-column: 2/5;
+}
+.principal h2{
+    text-align: center;
+    color: #FF6464;
+}
+.principal p{
+    text-align: justify;
+}
+.principal article img {
+    text-align: center;
+}
+.lateral {
+    
+    padding: 30px;
+    grid-column: 1/2;
+}
+
+.pie {
+    background-color: #5DA7DB;
+    padding: 30px;
+    text-align: center;
+}
+
+.container h3 {
+    text-align: center;
+}
